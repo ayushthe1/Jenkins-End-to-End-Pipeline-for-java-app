@@ -1,6 +1,6 @@
 # Jenkins End-to-End Pipeline for java-app
 
-![project diagram](iv.drawio.png)
+![project diagram](iv-l.drawio.png)
 
 
 This comprehensive DevOps project showcases the implementation of a robust CI/CD pipeline leveraging Terraform, Jenkins, and AWS Cloud services. The project is meticulously divided into key phases covering infrastructure setup, application deployment, and continuous integration and deployment processes. Notable highlights include configuring VPCs, deploying EC2 instances, setting up Jenkins pipelines, automating Docker containerization, integrating SonarQube for code analysis, and deploying applications using Argo CD on Kubernetes clusters. By making this project, I gained hands-on experience in modern DevOps practices, including infrastructure automation, continuous integration, and deployment, which are essential skills for driving efficiency and scalability in software development workflows.
