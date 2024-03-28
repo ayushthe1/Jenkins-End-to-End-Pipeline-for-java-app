@@ -1,0 +1,1 @@
+This directory contains terraform code to setup infrastructure on AWS. A t2.large ec2 instance is configured with the required security group ,subnet, internet gateway. A jenkins server and a sonarqube server is installed on it.

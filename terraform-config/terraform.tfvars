@@ -1,0 +1,8 @@
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCkHLGi3UoxYqDOK6KNwlAcLjzF8gu6SV1/7tHR4S/5tKRuRL5BqgRKobvImu7mLUIgaau/dLS6NCOCOV3Os6slAndcpXD+3w4Yl5ebCk3e7MeFUwxOUNqCj8sUv/Vpxxfn7Pegd7DStpjqA0XujJb8as2dLO4sqmd2CS4Ru8HhuPwEtKYQuRd36p/UODBPU57n+bP4J6HkZ3trEF2LWGQPMcr1RfC2ObLTpOpB1VPooItRSAbyGaMe0Bj9wiJ7XHRjRRR/hJec0ygF5pT6boPn3TU2wpawh75iOjT4uQ9ukgZQwyVg53ymwJDnblidEgFOcTOCdXfy6Uqi+CnXpkJl ayush007@ayush007"
+instance_type   = "t2.large"
+vpc_cidr             = "11.0.0.0/16"
+vpc_name             = "dev-jenkins-vpc"
+ami_id = "ami-080e1f13689e07408"
+ec2_sg_name = "ec2_security_group"
+subnet_cidr = "11.0.1.0/24"
+tag_name = "jenkins_ec2"
