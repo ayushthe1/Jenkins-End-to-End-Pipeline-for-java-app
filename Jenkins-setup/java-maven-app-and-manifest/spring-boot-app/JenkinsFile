@@ -6,6 +6,7 @@ pipeline {
     }
   }
   stages {
+    // Not really needed
     stage('Checkout') {
       steps {
         sh 'echo passed'
@@ -49,7 +50,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "Jenkins-Zero-To-Hero"
+            GIT_REPO_NAME = "Jenkins-End-to-End-Pipeline-for-java-app"
             GIT_USER_NAME = "ayushthe1"
         }
         steps {
